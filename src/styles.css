@@ -1,0 +1,32 @@
+.App {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	border: 3px solid grey;
+}
+
+.pizza-form {
+	display: flex;
+	margin: 20px;
+	flex-direction: column;
+}
+
+.size {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
+
+.size input {
+	margin-right: 5px;
+}
+
+.diet {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
